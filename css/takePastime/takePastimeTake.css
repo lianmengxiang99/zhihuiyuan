@@ -1,0 +1,163 @@
+@import "../reset.min.css";
+@import "../header1.css";
+/*场地信息开始*/
+body{
+    background: rgb(239,239,240);
+}
+.business{
+    background: white;
+    width: 100%;
+    height: 0.72rem;
+    font-size: 0.2rem;
+    line-height: 0.72rem;
+    color: #8F8E94;
+    position: relative;
+    border-bottom: 0.02rem solid rgb(229,229,229);
+}
+.business span{
+    margin-left: 6.5%;
+}
+.business img{
+    width: 0.085rem;
+    position: absolute;
+    left:3.5%;
+    top: 0.225rem;
+}
+ul.area{
+    width: 100%;
+    background: white;
+    font-size: 0.28rem;
+    padding-top: 0.2rem;
+}
+ul.area>li{
+    width:92%;
+    margin-left: 4%;
+    line-height: 0.5rem;
+}
+ul.area>li:last-of-type{
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+ul.area>li>span:last-of-type{
+    color: #8F8E94;
+}
+ul.area>li:last-of-type>span:last-of-type{
+    color: #E14D4D;
+}
+/*场地信息结束*/
+/*商家介绍开始*/
+.container{
+    width: 100%;
+    background: white;
+}
+.container>div.shops{
+    width: 92%;
+    margin-left: 4%;
+    height: 0.88rem;
+    overflow: hidden;
+    font-size: 0.28rem;
+    padding-top: 0.2rem;
+}
+.container>div.shops>div.shops_left{
+    float: left;
+    height: 0.48rem;
+    line-height: 0.48rem;
+}
+.container>div.shops>div.shops_left>img{
+    vertical-align: top;
+    padding-top: 0.06rem;
+    width: 0.36rem;
+}
+.container>div.shops>div.shops_right{
+    float: right;
+    height: 0.48rem;
+    width: 0.7rem;
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+/*下面总的父级都是.container*/
+div.shops>div.shops_right>img{
+    width: 0.48rem;
+    margin-left: 0.22rem;
+}
+.swiper-container>.swiper-wrapper>div{
+    width: 29.33%;
+    height:2rem;
+}
+.swiper-container>.swiper-wrapper>div>img{
+    height: 100%;
+    width: 100%;
+}
+.container>p.shopsText{
+    text-align: justify;
+    padding: 0.25rem 0  0.25rem 0 ;
+    width: 92%;
+    margin-left: 4%;
+    font-size: 0.28rem;
+}
+.business1{
+    border-top: 0.12rem solid rgb(239,239,240);
+}
+ul.appraise{
+    width: 100%;
+    font-size: 0.2rem;
+}
+ul.appraise>li{
+    width: 100%;
+    overflow: hidden;
+}
+ul.appraise>li>div.usersImg{
+    float: left;
+    width: 9.6%;
+    margin:0 2% 0 4%;
+    padding-top: 0.2rem;
+}
+ul.appraise>li>div.usersImg>img{
+    width: 100%;
+}
+ul.appraise>li>div.users_appraise{
+    padding: 0.2rem 0 0.2rem 0;
+    width: 84.4%;
+    float: right;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+div.users_appraise>div.users_text{
+    width: 95%;
+    overflow: hidden;
+}
+div.users_text>div.user_name{
+    float: left;
+    color: #FF6600;
+}
+div.users_text>div.appraise_time{
+    font-size: 0.2rem;
+    float: right;
+    width: 50%;
+    color: #8F8E94;
+}
+div.appraise_time>span:first-child{
+    color: #FF6600;
+    margin-right: 13%;
+}
+div.users_appraise>p{
+    padding-top:0.1rem;
+    width:95%;
+    letter-spacing: 0.2px;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+}
+footer{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    color: #FF6600;
+    font-size: 0.31rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+

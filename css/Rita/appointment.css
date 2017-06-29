@@ -1,0 +1,82 @@
+body{background: rgb(239,239,244);}
+.record, .task, .sponsor,.apply,.applyPart,.project, .sponsorPro, .achievement, .technology, .market,.main, .complaint,.informPart{padding-top: 0.88rem;background: white;}
+/* 预览 */
+.record ul{border-bottom: solid 0.1rem lightgray;height: 2.24rem;padding:0.2rem 0 0 0.3rem;}
+.record ul li{float: left;width: 47%;}
+.record ul li:last-of-type{float: left;width: 52%;}
+.record p{font-size: 0.28rem;line-height: 0.45rem;}
+.record span{font-size: 0.28rem;color: gray;}
+/* 合作项目 */ /* 任务众包 */ /*成果推广*/ /*技术推广*/ /*市场活动*/
+.task div, .project div, .achievement div,  .technology div, .market div{border-bottom: solid 0.1rem lightgray;height: 2.418rem;padding:0.2rem 0 0 0.3rem;}
+.task h6, .project h6, .achievement h6, .technology h6, .market h6{font-size: 0.32rem;line-height: 0.5rem;}
+.task p, .project p, .achievement p, .technology p, .market p{font-size: 0.28rem;color: gray;line-height: 0.5rem;margin-right: 0.3rem;}
+.task p:first-of-type{float: right;line-height: 0.5rem;}
+.task p:last-of-type, .project p:last-of-type, .achievement p:last-of-type,.technology p:last-of-type, .market p:last-of-type{color: red;}
+.btn{color: white;width: 1.6rem;height: 0.64rem;text-align: center;line-height: 0.64rem;font-size: 0.28rem;background: #FF6600;float: right;border: none;outline: auto;margin-right: 0.3rem;margin-top: 0.2rem;border-radius: 0.1rem;}
+ /*发起任务*/   /*发布合作*/
+.sponsor .infor, .sponsorPro .infor{height: 0.72rem;border-bottom: #CCCCCC solid 1px;}
+.sponsor .infor img, .sponsorPro .infor img{float: left;width: 0.08rem;margin:0.24rem 0.15rem 0 0.3rem ;}
+.sponsor .infor h5, .sponsorPro .infor h5{font-size: 0.24rem; color: #CCC;line-height: 0.72rem;}
+.sponsor .information, .sponsorPro .information{padding: 0 0.3rem;border-bottom: 1px solid #CCCCCC;}
+.sponsor .information li, .sponsorPro .information li{height:0.88rem ;border-bottom: 1px solid #CCCCCC;font-size: 0.28rem;line-height: 0.88rem;}
+.sponsor .information li:first-of-type img, .sponsorPro .information li:first-of-type img{float: right;margin: 0.35rem 0 0 0.1rem;}
+.sponsor .information li:first-of-type span:last-of-type, .sponsorPro .information li:first-of-type span:last-of-type{float: right;color: gray;}
+.sponsor .information li input, .sponsorPro .information li input{float: right;font-size: 0.28rem;text-align: right;line-height: 0.85rem;height: 0.85rem;}
+.sponsor .information li:last-of-type, .sponsorPro .information li:last-of-type{height: 2.9rem;border: none;}
+.sponsor .information li textarea, .sponsorPro .information li textarea{resize: none;height: 2.42rem;font-size: 0.28rem;outline: none;width: 100%;margin-top: 0.24rem;}
+.submit,.sub{text-align: center;width: 100%;height: 0.88rem;line-height: 0.88rem;color: #FF6600;border-top: 1px solid #CCCCCC;font-size: 0.32rem;position: fixed;bottom: 0;background: white;}
+.sub{display: none;}
+.choice{background: rgba(0,0,0,0.5);position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: 5;display: none;}
+.choList{position: absolute;bottom: 0;left: 0%;text-align: center;z-index: 6;width: 100%;}
+.choList p{width: 90%;margin-left: 5%;background: white;font-size: 0.28rem;color: deepskyblue;height: 0.88rem;line-height: 0.88rem;border-bottom: 1px solid #CCCCCC;}
+.choList p:first-of-type{color: gray;border-top-right-radius:0.1rem ;border-top-left-radius:0.1rem ;}
+.choList p:last-of-type{border-bottom-left-radius: 0.1rem;border-bottom-right-radius: 0.1rem;}
+.dis{margin-top: 0.2rem;border-radius: 0.1rem;width: 90%;background: white;font-size: 0.28rem;color: deepskyblue;height: 0.88rem;line-height: 0.88rem;}
+/* 报名列表 */
+.apply li{height: 3.38rem;border-bottom: solid 0.1rem lightgray;font-size: 0.28rem;}
+.apply li .userName{height: 0.72rem;line-height: 0.72rem;border-bottom: 1px solid #CCCCCC;padding-left: 0.3rem;}
+.apply li input{color: darkgray;font-size: 0.28rem;}
+.apply li .userInfor{height:1.76rem ; border-bottom: 1px solid #CCCCCC;padding:0.13rem 0.3rem;}
+.apply li .userInfor p{height:0.5rem;line-height: 0.5rem;}
+.apply li .button span{padding: 0.12rem 0.52rem;float: right;margin: 0.05rem 0.2rem 0 0;}
+.apply li .button span:first-of-type{border: 1px solid lightgray;color: gray;}
+.apply li .button span:last-of-type{background: #FF6600;color: white;border: 1px solid #FF6600;}
+/* 报名详情 */
+.applyPart .infor{height: 0.72rem;border-bottom: #CCCCCC solid 1px;}
+.applyPart .infor img{float: left;width: 0.08rem;margin:0.24rem 0.15rem 0 0.3rem ;}
+.applyPart .infor h5{font-size: 0.24rem; color: #CCC;line-height: 0.72rem;}
+.applyPart .appPartInfo{height: 5rem;padding: 0.2rem 0.3rem;}
+.applyPart .appPartInfo{font-size: 0.28rem;width: 100%;line-height: 0.45rem;}
+.applyPart .appPartInfo .partInfo input{font-size: 0.28rem;}
+.applyPart .appPartInfo .partInfo textarea{height:2.8rem ;resize: none;width: 5.5rem;float: right;font-size: 0.28rem;color: gray;outline: none;overflow-x: hidden;margin: 0.1rem;}
+.applyPartBtn{border-top: 1px solid gray;position: absolute;bottom: 0;width: 100%;}
+.applyPartBtn p{width: 50%;text-align: center;height: 1.08rem;line-height: 1.08rem;color: gray;font-size: 0.32rem;float: left;}
+.applyPartBtn p:last-of-type{background: #FF6600;color: white;}
+/* 拒绝原因 */
+.cause{font-size: 0.28rem;padding: 1.18rem 0rem  0 0.3rem;height: 5.18rem;outline: none;resize: none;width: 100%;}
+/* 我的消息 */
+.main .mainInfo div:first-of-type{border-bottom: #8F8E94 solid 1px;height: 0.72rem;line-height: 0.72rem;padding: 0 0.3rem;}
+.main .mainInfo div p:first-of-type{height: 0.72rem;line-height: 0.72rem;float: left;font-size: 0.28rem;}
+.main .mainInfo div p:last-of-type{height: 0.72rem;line-height: 0.72rem;float: right;font-size: 0.28rem;color: #8F8E94;}
+.main .mainInfo div:last-of-type{height: 0.84rem;line-height: 0.84rem;font-size: 0.28rem;color: #8F8E94;border-bottom: solid 0.1rem lightgray;padding: 0 0.3rem;}
+/* 报名详情 */ /* 消息详细 */
+.complaint .infor, .complaintInfor .infor{height: 0.72rem;border-bottom: #CCCCCC solid 1px;}
+.complaint .infor img,  .complaintInfor .infor img{float: left;width: 0.08rem;margin:0.24rem 0.15rem 0 0.3rem ;}
+.complaint .infor h5,  .complaintInfor .infor h5{font-size: 0.24rem; color: #CCC;line-height: 0.72rem;}
+.complaintInfor .comInfor, .informPart .infor{height: 0.72rem;border-bottom: #CCCCCC solid 1px;}
+.complaintInfor .comInfor p, .informPart .infor p{color: #FF6600;font-size: 0.24rem;float: right;margin-right: 0.2rem; line-height: 0.72rem;}
+.complaintInfor .comInfor h5, .informPart .infor h5{font-size: 0.28rem;line-height: 0.72rem;margin-left: 0.3rem;}
+.complaintInfor .comInfor h5 span{font-size: 0.28rem;color: gray;}
+.complaintInfor .appPartInfo, .informPart .appPartInfo{min-height: 3.5rem;padding: 0.2rem 0.3rem;font-size: 0.28rem;width: 100%;line-height: 0.45rem;}
+.complaintInfor .appPartInfo .partInfo p, .informPart .appPartInfo .partInfo p{font-size: 0.28rem;min-height:0.5rem;}
+.complaintInfor .appPartInfo .partInfo p span, .informPart .appPartInfo .partInfo span{font-size: 0.28rem;color: gray;}
+/* 投诉详情 */
+.complaintInfor{border-bottom: 0.1rem solid #CCCCCC; background: white;}
+.complaintInfor .replay{height: 2rem;padding: 0.1rem 0.3rem;}
+.complaintInfor .replay p:first-of-type{color: gray;font-size: 0.24rem;line-height: 0.5rem;}
+.complaintInfor .replay p:last-of-type{font-size: 0.28rem;}
+/* 企业资料 */
+.comInformation{padding-top:0.88rem;}
+.comInformation .headImg{height:2rem;}
+.comInformation .headImg span{font-size: 0.28rem; margin-left: 0.3rem;line-height: 2rem;}
+.comInformation .headImg img{float: right;width: 1.6rem; margin:0.2rem 0.3rem;}

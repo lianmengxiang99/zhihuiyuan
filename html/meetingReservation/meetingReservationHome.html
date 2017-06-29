@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href=" ../../css/reset.min.css">
+    <link rel="stylesheet" href="../../css/meetingReservation/meetingReservationHome.css">
+    <title>会务预定</title>
+</head>
+<body>
+<!--header-->
+<header>
+    <img src="../../img/common/back2.png" alt="" class="close"><span>会务预定</span>
+    <img src="" alt="">
+</header>
+<div class="tab">
+    <p>会议室</p >
+    <p>商家</p >
+    <p>会议动态</p >
+</div>
+<div class="tab-line">
+    <span>|</span>
+    <span>|</span>
+</div>
+<div class="swiper-container">
+        <div class="swiper-scrollbar"></div>
+    <div class="swiper-wrapper">
+        <ul class="swiper-slide">
+            <li>
+            	
+		            <div class="left">
+		                <img src="" alt="">
+		            </div>
+		            <div class="right">
+		                <div class="right_part1">
+		                    <p>多功能厅</p>
+		                    <span class="">容纳:120人</span>
+		                    <span><img src="../../img/common/nearby.png" alt="">中关村软件园孵化加速器一层</span>
+		                </div>
+		                <span class="right_area">面积:200㎡</span>
+		            </div>
+
+            </li>
+        </ul>
+        <ul class="swiper-slide">
+            <li>
+	                <div class="left">
+	                    <img src="" alt="">
+	                </div>
+	                <div class="right">
+	                    <div class="right_part1">
+	                        <p>孵化加速器会议中心</p>
+	                        <span class="phone" >电话:82825591转6025</span>
+	                        <span class="address"><img src="../../img/common/nearby.png" alt="">中关村软件园孵化加速器一层</span>
+	                    </div>
+	                </div>
+            </li>
+        </ul>
+        <ul class="swiper-slide">
+            <li>
+              正在更新中
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js "></script>
+<script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+<script src="../../js/shiftFit.js"></script>
+<script src="../../js/self.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $(".phone").css("color","darkgrey"),
+        $('.address').css("left"," -2.7rem")
+    });
+    var mySwiper = new Swiper('.swiper-container',{
+        scrollbar:'.swiper-scrollbar',
+        scrollbarHide : false   ,
+        scrollbarDraggable : true ,
+        scrollbarSnapOnRelease : true ,
+        onSlideChangeStart: function(swiper){
+            if(swiper.activeIndex == 0){
+                $(".tab>p:first-of-type").css("color","#ff6600");
+                $(".tab>p:nth-child(2)").css("color","#1a1a1a");
+                $(".tab>p:last-of-type").css("color","#1a1a1a");
+            }else if (swiper.activeIndex == 1){
+                $(".tab>p:first-of-type").css("color","#1a1a1a");
+                $(".tab>p:nth-child(2)").css("color","#ff6600");
+                $(".tab>p:last-of-type").css("color","#1a1a1a");
+            }else {
+                $(".tab>p:first-of-type").css("color","#1a1a1a");
+                $(".tab>p:nth-child(2)").css("color","#1a1a1a");
+                $(".tab>p:last-of-type").css("color","#ff6600");
+
+            }
+        }
+
+    });
+$(function(){
+	$(".swiper-container ul li").on("click",function(){
+		window.location.href="meetingShopName.html"
+		
+		
+	})
+	
+	
+	
+	
+})
+
+</script>

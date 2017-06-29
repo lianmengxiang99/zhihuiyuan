@@ -1,0 +1,157 @@
+@import "../reset.min.css";
+header {
+    position: fixed;
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    position: relative;
+    line-height: 0.88rem;
+    margin-left: -0.6rem;
+}
+
+/*container*/
+.container {
+    padding-top: 0.88rem;
+    overflow: hidden;
+
+}
+
+.container_about {
+    width: 100%;
+    height: 0.72rem;
+    font-size: 12px;
+    margin-left: 0.3rem;
+    line-height: 0.72rem;
+}
+
+.container_about .shutiao {
+    float: left;
+    height: 0.3rem;
+    width: 0.08rem;
+    margin-top: 0.21rem;
+}
+.container_about span {
+    margin-left: 0.1rem;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+}
+.container .container_aboutDetails {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+.addContainer{overflow: hidden;}
+/*分割线*/
+.lineGekai{width: 100%;height: 0.15rem;background:rgb(239,239,244);}
+/*classfy*/
+.classify li{width: 100%;height: 0.88rem;border-bottom:1px  solid rgb(239,239,244);text-indent: 0.3rem;
+    position: relative;
+    overflow: hidden;
+}
+.classify li input{outline: none;font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #CCCCCC;
+    border: none;}
+.classify li p{font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    line-height: 0.88rem;}
+
+.classify li span{font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    float: right;line-height: 0.88rem;
+    margin-top: -0.88rem;
+    margin-right: 0.4rem;}
+.classify li:nth-of-type(2) input{
+    position: absolute;
+    top: 0.88rem; right: 1%;
+    width: 2rem;
+    margin-top: -0.68rem;
+}
+
+.classify li:nth-of-type(3) input{
+    position: absolute;
+    top: 0.88rem; right: 1%;
+    width: 2rem;
+    margin-top: -0.68rem;
+}
+.classify li:nth-of-type(4) input{
+    position: absolute;
+    top: 0.88rem; right: 1%;
+    width: 2rem;
+    margin-top: -0.68rem;
+    text-indent: 20%;
+
+}
+.classify li:nth-of-type(5) input{
+
+    position: absolute;
+    top: 0.88rem;
+    width: 2rem;
+    margin-top: -0.68rem;
+    margin-left: 35%;
+}
+.classify li:nth-of-type(5) button{
+    width: 2rem;height: 100%;
+    position: absolute;
+    top: 0.88rem;
+    margin-top: -0.88rem;
+    background: #ff6600;
+    border: none;
+    left: 5.5rem;
+}
+.classify li:nth-of-type(6) input{
+    position: absolute;
+    top: 0.88rem; right: 1%;
+    width: 2rem;
+    margin-top: -0.68rem;
+    text-indent: 20%;
+
+}
+
+.footer_submit{
+    width: 100%;
+    height: 2rem;
+    font-family: PingFangSC-Regular;
+    color: #8F8E94;
+    letter-spacing: 0;
+    text-indent: 0.3rem;
+    border-bottom: 1px solid rgb(239,239,244);
+    overflow: hidden;
+}
+.footer_submit textarea{
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    line-height: 0.5rem;
+}
+.footerBtn{width: 100%;text-align: center;}
+.btn{
+		margin: 0 auto;
+		width: 2rem;
+		height: 0.8rem;
+		background: #FF6600;
+		color: white;
+		}
+button{outline: none;border: 0;color: white;}
+

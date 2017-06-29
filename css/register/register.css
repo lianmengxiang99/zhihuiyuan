@@ -1,0 +1,94 @@
+/*引入初始化css样式及头部*/
+@import "../reset.min.css";
+@import "../header.css";
+body{
+    background:rgb(239,239,240);
+}
+a{color: gray;}
+.container{
+	margin-top:0.8rem;
+}
+.part1,.part2{
+	width: 7.5rem;
+	height: 0.88rem;
+	overflow: hidden;
+	background: white;
+}
+.part1>img{
+	float: left;
+	width: 0.36rem;
+	height: 0.36rem;
+	vertical-align: top;
+	margin-left: 0.3rem;
+	margin-top: 0.26rem;
+}
+.part2>img{
+	float: left;
+	width: 0.36rem;
+	height: 0.36rem;
+	vertical-align: top;
+	margin-left: 0.3rem;
+	margin-top: 0.26rem;
+}
+.part2>input{
+	float: left;
+	vertical-align: top;
+	width: 6.6rem;
+	height: 0.4rem;
+	font-size: 0.28rem;
+	margin-left: 0.2rem;
+	margin-top: 0.24rem;
+}
+.part1>input{
+	float: right;
+	vertical-align: top;
+	font-size: 0.28rem;
+	width: 4.24rem;
+	height: 0.4rem;
+	margin-left: 0.2rem;
+	margin-top: 0.24rem;
+}
+.part1>span{
+	float: right;
+	width: 2.4rem;
+	line-height: 0.88rem;
+	font-size:0.28rem;
+	text-align: center;
+	color: white;
+	background: #ccc;
+}
+.blank{
+	width: 100%;
+	height:0.2rem;
+}
+.container>p:first-of-type{
+	font-family: PingFangSC-Regular;
+	font-size: 0.24rem;
+	color: #8F8E94;
+	letter-spacing: 0;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.container>p>span:first-of-type{
+	font-family: PingFangSC-Regular;
+	font-size: 0.24rem;
+	color: #FF6600;
+	letter-spacing: 0;
+	line-height: 0.34rem;
+}
+.container>p:last-of-type{
+	width: 6.9rem;
+	margin: 0 auto;
+	height: 0.88rem;
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #FFFFFF;
+	background: #FF6600;
+	text-align: center;
+	line-height: 0.88rem;
+	margin-top: 0.2rem;
+}
+
+
+
+

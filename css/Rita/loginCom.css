@@ -1,0 +1,26 @@
+body{background:rgb(239,239,240);}
+input, button{border: none;outline: none;font-size: 0.28rem;}
+/* 返回图片 */
+.head img{width: 0.64rem;position: absolute;top: 0.12rem;left: 0.2rem;}
+/* 登录页 */
+.cont, .contPass{position: absolute;top: 1.76rem;border-top: 1px solid rgb(229,229,229);}
+.inp{border-bottom: 1px solid rgb(229,229,229);width: 100%;height: 0.88rem;line-height: 0.88rem;background: white;}
+.inp img{width: 0.36rem;float: left;margin: 0.26rem 0.1rem 0  0.3rem ;}
+.inp input{width:6.7rem;float: right;line-height: 0.85rem;}
+.btn{width: 100%; text-align: center;margin-top: 0.5rem;}
+.btn button{width: 92%;height: 0.88rem;line-height: 0.88rem;text-align: center;background: #FF6600;color: white;font-size: 0.32rem;border-radius: 0.1rem;}
+.forgetPass{font-size: 0.28rem;color: #8F8E94;margin:0.5rem 4% ;}
+/* 提示 */
+.alert{position: absolute;top:100%;left: 0;width: 100%;display: none;}
+.alertText{background: #FF6600;height: 0.88rem;line-height: 0.88rem;color: white;text-align: center;width: 96%;position: absolute;top:0rem;left: 2%;border-radius: 0.1rem;font-size: 0.28rem;}
+.triangle{width: 0;height: 0;border-top:0.3rem solid #FF6600 ;border-bottom:0.3rem solid transparent ;border-left:0.3rem solid transparent ;border-right:0.3rem solid transparent ;position: absolute;top: 0.88rem;left: 50%;margin-left: -0.15rem;}
+/* 忘记密码 */
+.license{height: 2rem;width: 100%;line-height: 2rem;background: white;font-size: 0.32rem;color: gray;border-bottom: 1px solid rgb(229,229,229);}
+.license img{margin:0.82rem 0.1rem 0 0.3rem ;}
+.licImg{width: 2rem;height: 2rem;position: absolute;top: 0.88rem;right: 0;background:rgb(239,239,241) ;}
+.licImg img{width: 1rem;position: absolute;top: -0.3rem;left: 0.2rem;	}
+.linkmen{margin-top: 0.2rem;}
+.num{margin-top: 0.2rem;position: absolute;}
+.sent{width: 2.4rem;height: 0.88rem;position: absolute;top: 0;background: #CCCCCC;color: white;right: 0;}
+.submit{margin-top: 2.2rem;}
+.btn p{font-size: 0.24rem;margin-top: 0.1rem;color: #8F8E94;}

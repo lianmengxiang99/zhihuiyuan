@@ -1,0 +1,6 @@
+body{background: rgb(239,239,244);}
+ .apply {padding-top: 0.88rem;background: white;}
+/* 报名列表 */
+.apply li{height: 3.28rem;border-bottom: solid 0.1rem lightgray;font-size: 0.28rem;}
+.apply li .userName{height: 0.72rem;line-height: 0.72rem;border: 1px solid #CCCCCC;}
+.apply li input{color: darkgray;}

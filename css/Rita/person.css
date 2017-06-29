@@ -1,0 +1,20 @@
+.selfBg{width: 100%;height:6.4rem;background: url(../../img/self/me_bg@2x.png) no-repeat;background-size: 100%;position: relative;}
+.circleOne{width: 4.16rem;height: 4.16rem;background: url(../../img/self/mybg1@3x.png);background-size: 100% 100%;position: absolute;top: 1.12rem;left: 50%;margin-left: -2.08rem;}
+.circleOne img{width: 1.6rem;position: absolute;top: 50%;left: 50%;margin: -0.8rem;}
+.top img{width: 0.64rem;float: right;margin: 0.4rem 0.4rem 0 0;}
+.top img:first-of-type{float: left;margin-left: 0.4rem;}
+.container div{position: relative;float: left;margin:-0.1rem 0 0 0.2rem;}
+.container img{width: 3.46rem;}
+.container p{font-size: 0.24rem;position: absolute;top: 0.7rem;left: 0.4rem;color: white;}
+.user{position: absolute;top: 4.5rem;width: 100%;text-align: center;}
+.user p{color: white;font-size: 0.32rem;width: 100%;}
+.user span{background: white;opacity: 0.8;font-size: 0.24rem;display:inline-block;width:2rem;height: 0.64rem;line-height: 0.64rem; border-radius:0.64rem;position: absolute;top: 0.6rem;left: 50%;margin-left: -1rem;}
+.order{margin:-0.3rem 0 0 0.2rem;font-size: 0.24rem}
+.order div{padding: 0.2rem;}
+.order div p{font-size: 0.28rem;margin-bottom: 0.2rem;}
+.order div a,.order div img{float: right;}
+.order div img{width: 0.24rem;margin-top: 0.05rem;}
+.order ul{height: 1.1rem;}
+.order ul li{width: 1.42rem;text-align: center;float: left;height: 0.72rem;}
+.line{border-left: 1px solid gray;}
+.order ul li img{width: 0.4rem;}

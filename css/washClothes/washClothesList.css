@@ -1,0 +1,135 @@
+@import "../reset.min.css";
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: rgba(255,102,0,0);
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+/*背景图片*/
+.wifiBg{position: fixed;width: 100%;height:3.52rem;top: 0;left: 0; }
+.wifiBg_collect{position: fixed;z-index: 2;width: 0.64rem;
+    top: 0.12rem;left: 72%;}
+.wifiBg_share{position: fixed;z-index: 2;width: 0.64rem;top: 0.12rem;left: 85%;}
+.washShopImg{width: 1.6rem;height: 1.6rem;position: fixed;z-index: 2;left: 0.2rem;top: 1.58rem;}
+.washPulan{position: fixed;z-index: 2;font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF; left: 2.2rem;top: 2rem;}
+.washPulanollect{position: fixed;z-index: 2;font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 16px;
+    top: 2.6rem;left: 2.2rem;}
+/*container部分*/
+.container #swiperFirst {
+    position: fixed;
+    z-index: 2;
+    top: 3.52rem;
+    background: white;
+
+}
+.container #swiperFirst div{height: 0.88rem;line-height: 0.88rem;font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    border-bottom: 1px solid rgb(239,239,244);
+    }
+.container .swiperFirst {
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*line-height: 0.88rem;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.container #swiperFirst .active{color: #ff6600;}
+/*洗衣展示*/
+.washClothesListName{padding-top: 4.4rem;width: 100%; overflow: auto;padding-bottom: 1.3rem;}
+.washClothesListName ul li{width: 2.5rem;height: 2.5rem;border: 1px solid rgb(239,239,244);
+border-left: none;border-top: none;float: left;padding: 0.2rem 0.2rem;overflow: hidden;}
+.washClothesListName ul li img{width: 100%;height: 1.36rem;}
+.washClothesListName ul li p{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: -0.2rem;
+
+
+}
+.washClothesListName ul li .washDiscount{float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E14D4D;
+    }
+.washClothesListName ul li .washPrice{
+    float: right;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #A5AAB2;
+    float: right;
+    text-decoration: line-through;
+}
+
+
+/*fooer*/
+.footer{position:fixed;z-index:5;width: 7.5rem;height: 1.08rem;
+        background: white; bottom: 0; border-top: 1px solid rgb(239,239,244)}
+.footer img{width: 0.86rem;margin-left: 0.5rem;position: absolute;top: 0.28rem;}
+.footer .footerNumber{width: 0.36rem;height: 0.36rem;background: red;position: absolute;font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 18px;top: 0.1rem;left: 1.05rem;border-radius: 50%;text-align: center;}
+.footer .footerCount p:first-of-type{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #1A1A1A;
+    margin-left: 1.7rem;
+    margin-top: 0.2rem;
+}
+.footer .footerCount p:last-of-type{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E14D4D;
+    margin-left: 1.7rem;
+margin-top: 0.1rem;
+}
+
+.footer .footerOk{
+    width: 2.66rem;
+    height: 1.08rem;
+    text-align: center;
+    line-height: 1.08rem;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: absolute;
+    left: 4.84rem;
+    top: 0;
+    background: rgb(239,239,244);
+}
+.washClothesListName ul{display: none;}
+.washClothesListName #topClothes{display: block; }
+

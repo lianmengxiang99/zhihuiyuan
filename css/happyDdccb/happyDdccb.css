@@ -1,0 +1,98 @@
+@import "../reset.min.css";
+@import "../header.css";
+body{
+    background:rgb(239,239,240);
+}
+.container{
+	margin-top: 0.01rem;
+    width: 100%;
+    height:4.3rem;
+    background: #FF6600;
+    padding: 0 5% 0 5%;
+    overflow: hidden;
+}
+.container li{
+    width: 50%;
+    float: left;
+    height: 2.15rem;
+}
+.container li .line{
+    width: 90%;
+    height: 1.65rem;
+    margin-top: 0.5rem;
+    margin-left: 10%;
+    border: 0.02rem solid #FF6600;
+    border-bottom: 0.02rem solid rgba(255,255,255,0.3);
+}
+.container li .line div{
+    height: 1.4rem;
+    width: 100%;
+    margin-left: -10%;
+    margin-top: 0.125rem;
+    border-left: 0.02rem solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+.container li .line div img{
+    width: 1rem;
+    margin-top: 0.2rem;
+}
+.container li .line2{
+    width: 90%;
+    height: 1.65rem;
+    border: 0.02rem solid #FF6600;
+    border-top: 0.02rem solid rgba(255,255,255,0.3);
+}
+.container li .line2 div{
+    height: 1.4rem;
+    width: 100%;
+    margin-left: 13.5%;
+    margin-top: 0.125rem;
+    border-right: 0.02rem solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+.container li.center{
+    text-align: center;
+}
+.container li .line2 div img{
+    width: 1rem;
+    margin-top: 0.2rem;
+}
+.container li.center .img1{
+margin-top: 0.8rem;
+}
+.container li.center .img2{
+    margin-top: 0.3rem;
+}
+.jigsaw{
+    height:3.84rem;
+    width: 100%;
+    margin-top: 0.2rem;
+    background: url("../../img/mengxiang/fqptuanbg.png") 0 0 no-repeat;
+    text-align: center;
+}
+.jigsaw img{
+    padding-top:0.42rem ;
+    width: 3rem;
+}
+.jigsaw p{
+    color: white;
+    font-size: 0.28rem;
+    margin-top: -0.2rem;
+}
+ul.footer{
+    margin-top: 0.2rem;;
+    width: 100%;
+    background: white;
+}
+ul.footer li{
+    height: 0.88rem;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.24rem;
+    line-height: 0.88rem;
+    background: url("../../img/mengxiang/back.png") 97% 45% no-repeat;
+}
+ul.footer li:first-of-type{
+    border-bottom: 0.02rem solid rgb(239,239,244);
+
+}

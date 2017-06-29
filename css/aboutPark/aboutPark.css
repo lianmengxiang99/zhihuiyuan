@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+
+/*container 部分*/
+.container {
+    padding-top: 0.88rem;
+}
+
+.container .container_about {
+    height: 0.72rem;
+    font-size: 12px;
+    margin-left: 0.3rem;
+    line-height: 0.72rem;
+}
+
+.container .shutiao {
+    float: left;
+    height: 0.3rem;
+    width: 0.08rem;
+    margin-top: 0.21rem;
+}
+
+.container .container_about span {
+    margin-left: 0.1rem;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+}
+
+/*园区简介*/
+.container .container_aboutDetails {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+
+.container_aboutDetails img {
+    width: 100%;
+    height: 3rem;
+}
+
+/*line 空隔开*/
+.container .container_aboutLine {
+    width: 100%;
+    height: 0.1rem;
+    background: rgb(239, 239, 244);
+}
+
+/*container_contactUs Css*/
+.container_contactUs {
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+
+.container .container_contactUs p {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+}
+
+.container .container_contactUs span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    letter-spacing: 0;
+}

@@ -1,0 +1,184 @@
+@import "../reset.min.css";
+/*header部分*/
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+
+/*container部分*/
+body {
+    background: rgb(239, 239, 244);
+}
+a{text-decoration: none;color: black;}
+.container {
+    background: white;
+    padding-top: 0.88rem;
+}
+/*优惠信息*/
+.container .container_about {
+    width: 100%;
+    height: 0.72rem;
+    font-size: 12px;
+    line-height: 0.72rem;
+    overflow: hidden;
+    padding-left: 0.3rem;
+}
+
+.container .shutiao {
+    float: left;
+    height: 0.3rem;
+    width: 0.08rem;
+    margin-top: 0.21rem;
+}
+
+.container .container_about span {
+    margin-left: 0.1rem;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+
+}
+
+.container_about_info {
+    height: 1.28rem;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FF6600;
+    letter-spacing: 0;
+    padding: 0.2rem 0.2rem 0.3rem 0.3rem
+}
+
+/*.container_about_line灰色隔代*/
+.container_about_line {
+    width: 100%;
+    height: 0.2rem;
+    background: rgb(239, 239, 244)
+}
+
+/*更多商家*/
+.container .container_about_more {
+    float: right;
+    margin-right: 0.5rem;
+}
+
+/*商家洗衣*/
+.washShop {
+    width: 100%
+}
+
+.washShop li {
+    width: 100%;
+    height: 2rem;
+    background: white;
+    border-top: 1px solid gainsboro;
+    position: relative;
+}
+
+.washShop li img {
+    width: 2.2rem;
+    height: 100%;
+    float: left;
+}
+
+.washShop .washShop_rightwash {
+    float: right;
+    width: 5.2rem;
+    line-height: 100%;
+    height: 2rem;
+}
+
+/*商家洗衣right文本*/
+.washShop .washShop_rightwash {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    line-height: 16px;
+    line-height: 0.5rem;
+}
+
+.washShop .washShop_rightwash span:first-of-type {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #8F8E94;
+    line-height: 16px;
+    line-height: 0.6rem;
+    height: 0.6rem;
+}
+
+.washShop_Delivery {
+    position: absolute;
+    width: 1.6rem;
+    height: 0.64rem;
+    background: #ff6600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.64rem;
+    left: 75%;
+    top: 1rem;
+}
+
+/*footer部分*/
+.washShop_footer {
+    width: 100%;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #1A1A1A;
+    line-height: 16px;
+    margin-top: 0.2rem;
+    padding: 0 0.3rem 0 0.3rem;
+    overflow: hidden;
+}
+
+.washShop_footer img {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.washShop_footer div {
+    width: 3.36rem;
+    background: #FFFFFF;
+    height: 2.4rem;
+    text-align: center;
+}
+.washShop_footer a{
+    color: #1A1A1A;
+    }
+.washShop_footer div:first-of-type {
+    float: left;
+}
+
+.washShop_footer div:last-of-type {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+
+/*业务部分*/
+.container {
+    padding-top: 0.88rem;
+}
+
+.container .container_about {
+    height: 0.72rem;
+    font-size: 12px;
+    margin-left: 0.3rem;
+    line-height: 0.72rem;
+    overflow: hidden;
+}
+
+.container .shutiao {
+    float: left;
+    height: 0.3rem;
+    width: 0.08rem;
+    margin-top: 0.21rem;
+}
+
+.container .container_about span:first-of-type {
+    margin-left: 0.1rem;
+    float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+}
+
+.container .container_about span:last-of-type {
+    float: right;
+    margin-right: 8%;
+    color: #9F9F9F;
+}
+
+.container #cooperate {
+    float: left;
+}
+
+.container .container_about span img {
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+/*国际合作*/
+
+.container .container_aboutDetails {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+
+.container_aboutDetails img {
+    width: 100%;
+    height: 3rem;
+}
+
+/*line 空隔开*/
+.container .container_aboutLine {
+    width: 100%;
+    height: 0.1rem;
+    background: rgb(239, 239, 244);
+    clear: both;
+}
+
+/*合作动态*/
+
+.container .dynamic_cooperative {
+    width: 100%;
+    height: 2rem;
+}
+
+.container .dynamic_cooperative li {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid gray;
+}
+
+.container .dynamic_cooperative img {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+}
+
+.container .dynamic_cooperative_right {
+    width: 5.5rem;
+    height: 100%;
+    float: right;
+    padding: 0.2rem 0.1rem 0.1rem 0.2rem;
+}
+
+.container .dynamic_cooperative_right span:first-of-type {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #1A1A1A;
+    line-height: 20px;
+    float: left;
+    line-height: 0.4rem;
+}
+
+.container .dynamic_cooperative_right div span:nth-child(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+    line-height: 0.4rem;
+    float: right;
+    margin-right: 6%;
+
+}
+
+.container .dynamic_cooperative_right div {
+    overflow: hidden;
+    height: 0.4rem;
+}
+
+.container .dynamic_cooperative_right_span {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #8F8E94;
+    margin-top: 0.2rem;
+    overflow: hidden;
+
+}
+/*footer部分*/
+.footer {
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+}
+
+.footer li img {
+    height: 100%;
+    float: left;
+    width: 2.5rem;
+}
+
+.bg {
+    width: 100%;
+    height: 0.6rem;
+    background: black;
+    opacity: 0.3;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    top: -0.6rem;
+}
+
+.bg li {
+    width: 2.5rem;
+    height: 100%;
+    float: left;
+    line-height: 0.6rem;
+}

@@ -1,0 +1,142 @@
+.content{
+	margin:0.88rem 0 1.12rem ;
+}
+.newCont{
+	width: 100%;	
+}
+.contMin{
+	height: 0.64rem;
+	line-height: 0.64rem;
+	width: 1.52rem;
+	position: relative;
+	left: 50%;
+	margin-left: -0.76rem;
+}
+.contMin img{
+	width: 0.36rem;
+	float: left;
+	margin-top: 0.13rem;
+}
+.contMin span{
+	font-size: 0.28rem;
+	float: right;
+}
+.newConts {
+	height: 2.02rem;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.newConts img{
+	width: 2.2rem;
+	height: 2rem;
+	float: left;
+
+}
+.word{
+	padding: 0.28rem;
+	width:5.3rem ;
+	float: right;
+}
+.newConts span{
+	font-size: 0.24rem;
+}
+.apos{
+	float: left;
+} 
+.time{
+	float: right;	
+}
+h3{
+	width: 2.3rem;
+	height: 0.32rem;
+	font-size:0.32rem ;
+	overflow: hidden;
+	float: left;
+	line-height: 0.32rem;
+}
+.words{
+	margin-top: 0.6rem;
+	font-size: 0.28rem;
+	width: 4.8rem;
+	height: 0.8rem;
+	overflow: hidden;
+	line-height: 0.4rem;
+}
+.pay{
+	margin-top: 0.5rem;
+	width: 5rem;
+	font-size: 0.28rem;
+	color: red;
+	height: 0.32rem;	
+}
+.class{
+	font-size: 0.2rem;
+	float: right;
+	background: rgb(199,198,201);	
+	color: white;
+	width: 1.1rem;
+	text-align: center;
+	border-radius: 0.28rem;
+}
+.address{
+	width: 5.3rem;
+	height: 0.24rem;
+
+}
+.adress img{
+	width: 0.18rem;
+	height: 0.24rem;
+	margin-top: 0.3rem;	
+	float: left;
+}
+.adressWord{
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.15rem;
+}
+.actives{
+	padding: 0.2rem 0.4rem;
+	
+}
+.actCont{
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	height: 0.4rem;
+	overflow: hidden;
+	width: 6.5rem;
+}
+.comm{
+	height: 1.6rem;
+	padding: 0.2rem 0.3rem;	
+	border-bottom: 0.02rem solid #ccc;
+}
+.comm .people img{
+	width: 0.8rem;
+	float: left;
+	margin-top: -0.1rem
+}
+.comm .people h4{
+	font-size: 0.24rem;
+	margin: 0.1rem 1rem;
+}
+.cmnty{
+	height: 0.28rem;
+}
+.comm .people .times{
+	font-size: 0.2rem;
+	color: gray;
+	margin: -0.1rem 1rem;
+}
+.comm .people .come{
+	font-size: 0.2rem;
+	float: right;
+	background: rgb(199,198,201);	
+	color: white;
+	width: 1.1rem;
+	text-align: center;
+	border-radius: 0.28rem;
+}
+.com{
+	font-size: 0.28rem;
+	margin-top: 0.15rem;
+}

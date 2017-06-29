@@ -1,0 +1,95 @@
+@import "../reset.min.css";
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+.container{
+    padding-top: 0.88rem;
+}
+/*预约取件部分*/
+.washShop {
+    width: 100%
+}
+
+.washShop li {
+    width: 100%;
+    height: 2rem;
+    background: white;
+    border-top: 1px solid gainsboro;
+    position: relative;
+}
+
+.washShop li img {
+    width: 2.2rem;
+    height: 100%;
+    float: left;
+}
+
+.washShop .washShop_rightwash {
+    float: right;
+    width: 5.2rem;
+    line-height: 100%;
+    height: 2rem;
+}
+
+/*商家洗衣right文本*/
+.washShop .washShop_rightwash {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    line-height: 16px;
+    line-height: 0.5rem;
+}
+
+.washShop .washShop_rightwash span:first-of-type {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #8F8E94;
+    line-height: 16px;
+    line-height: 0.6rem;
+    height: 0.6rem;
+}
+
+.washShop_Delivery {
+    position: absolute;
+    width: 1.6rem;
+    height: 0.64rem;
+    background: #ff6600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.64rem;
+    left: 75%;
+    top: 1rem;
+}
+.washShop .washShop_rightwash p:nth-of-type(1){
+    color: red;
+    font-size: 12px;
+}
+.washShop .washShop_rightwash p:nth-of-type(1) span{
+    color: red;
+    font-size: 12px;
+
+}
+.washShop .washShop_rightwash img{width: 0.18rem;height: 0.24rem;margin-top: 0.1rem;}

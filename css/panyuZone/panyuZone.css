@@ -1,0 +1,81 @@
+@import "../reset.min.css";
+@import "../header.css";
+/*业务介绍*/
+body{
+    background: rgb(239,239,240);
+}
+.business{
+    background: white;
+    width: 100%;
+    height: 0.72rem;
+    font-size: 0.2rem;
+    line-height: 0.72rem;
+    color: #8F8E94;
+    position: relative;
+    border-bottom: 0.02rem solid rgb(229,229,229);
+}
+.business span{
+    margin-left: 6.5%;
+}
+.business img{
+    width: 0.085rem;
+    position: absolute;
+    left:3.5%;
+    top: 0.225rem;
+}
+.text{
+    width: 100%;
+    height: 4.2rem;
+    font-size: 0.28rem;
+    font-family: PingFangSC-Regular;
+    color: #1A1A1A;
+    letter-spacing: -0.5px;
+    background: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid rgb(229,229,229);
+}
+.text p{
+    width: 90%;
+    margin: 0 auto 0;
+    margin-top: 0.2rem;
+    letter-spacing: 0.3px;
+}
+div.phone{
+    width: 100%;
+    background:white;
+    height: 0.88rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: relative;
+}
+div.phone .phoneImg{
+    position: absolute;
+    width: 0.48rem;
+    top: 0.2rem;
+    left: 2.6rem;
+}
+ul.footer{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 3.5% 0 3.5%;
+}
+ul.footer .footerLeft{
+    float: left;
+}
+ul.footer li{
+    width:3.36rem;
+    height: 2.4rem;
+    background: white;
+    margin-top: 0.2rem;
+    font-size: 0.2rem;
+    text-align: center;
+}
+ul.footer li img{
+    width: 1rem;
+    margin-top: 0.7rem;
+}
+ul.footer .footerRight{
+    float: right;
+}

@@ -1,0 +1,38 @@
+.research{
+	width: 80%;
+	background: rgba(0,0,0,0.1);
+	height: 0.58rem;
+	border-radius: 0.75rem;
+	position: relative;
+	top: 0.16rem;
+	left: 0.1rem;
+}
+.research img{
+	width: 0.58rem;
+	position: absolute;
+	margin: -0.12rem;
+}
+.input{
+	font-size: 0.28rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	position: absolute;
+	top: 0;
+	left: 0.58rem;
+	border: none;
+	outline: none;
+	background: transparent;
+	width: 80%;
+	color: white;
+	
+}
+.input::-webkit-input-placeholder {
+	color: white;
+}
+.back{
+	font-size: 0.32rem;
+	color: white;
+	float: right;
+	line-height: 0.88rem;
+	margin-right: 0.5rem;
+}

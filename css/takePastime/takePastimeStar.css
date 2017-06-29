@@ -1,0 +1,46 @@
+@import "../reset.min.css";
+@import "../header.css";
+/*健身之星*/
+body{
+    background: white;
+}
+.container{
+    width: 100%;
+}
+.container>li{
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0.24rem 0 0 0;
+}
+.container>li>.people{
+    width: 93%;
+    height: 0.72rem;
+    overflow: hidden;
+    margin-left: 4%;
+}
+.container>li>.people div{
+    float: left;
+    color: #8F8E94;
+    height: 0.72rem;
+}
+.container>li>.people div:nth-child(1) img{
+    width: 0.72rem;
+    vertical-align: top;
+}
+.container>li>.people div:nth-child(2){
+    margin-left: 2%;
+}
+.container>li>.people div:nth-child(2) h6{
+    color: black;
+    font-weight: 400;
+    font-size: 0.28rem;
+}
+.container>li>.people div:nth-child(2) p{
+    font-size: 0.24rem
+}
+.container>li>.people div:last-of-type{
+    font-size: 0.28rem;
+    float: right;
+    line-height: 1.1rem;
+}

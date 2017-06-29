@@ -1,0 +1,119 @@
+@import "../reset.min.css";
+
+/*健身教练头部*/
+header {
+    width: 100%;
+    height: 3.3rem;
+    background: url("../../img/mengxiang/jiaol_bg.png") 0 0 no-repeat;
+    background-size: 100%;
+    padding: 0 3% 0 3%;
+}
+
+header > div.top {
+    width: 100%;
+    height: 0.88rem;
+    overflow: hidden;
+    padding-top: 0.12rem;
+}
+
+header > div.top div:nth-child(1) img {
+    /*float: left;*/
+    margin-left: 0px;
+}
+
+header > div.top div {
+    height: 0.88rem;
+    width: 28%;
+}
+
+header > div.top div img {
+    margin-left: 9%;
+}
+
+header > div.top div img {
+    width: 0.64rem;
+    height: 0.64rem;
+    vertical-align: top;
+}
+
+header > div.top div:first-child {
+    float: left;
+}
+
+header > div.top div:last-child {
+    float: right;
+}
+
+header > div.bottom {
+    height: 1.6rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+header > div.bottom > div {
+    float: left;
+}
+
+header > div.bottom > div:first-of-type img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+header > div.bottom > div:last-of-type {
+    width: 30%;
+    margin-left: 6%;
+    font-size: 0.2rem;
+    line-height: 0.533rem;
+    color: white;
+}
+
+header > div.bottom > div:last-of-type p:nth-child(2) span.spacing {
+    margin: 0 4% 0 4%;
+}
+
+header > div.bottom > div:last-of-type h6 {
+    font-size: 0.32rem;
+}
+
+/*教练简介*/
+.business {
+    background: white;
+    width: 100%;
+    height: 0.72rem;
+    font-size: 0.2rem;
+    line-height: 0.72rem;
+    color: #8F8E94;
+    position: relative;
+    border-bottom: 0.02rem solid rgb(229, 229, 229);
+}
+
+.business span {
+    margin-left: 6.5%;
+}
+
+.business img {
+    width: 0.085rem;
+    position: absolute;
+    left: 3.5%;
+    top: 0.225rem;
+}
+
+.container {
+    padding-top: 0.2rem;
+    width: 100%;
+    font-size: 0.28rem;
+    text-align: justify;
+}
+
+.container > p, .container > div {
+    width: 94%;
+    letter-spacing: 0.2px;
+    margin-left: 3%;
+}
+.container>div{
+    margin-top:0.35rem;
+}
+.container>div>h6{
+    font-size: 0.28rem;
+}

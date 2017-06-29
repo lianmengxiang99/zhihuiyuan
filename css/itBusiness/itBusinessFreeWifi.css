@@ -1,0 +1,52 @@
+@import "../reset.min.css";
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: rgba(255,102,0,0.00);
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+/*背景图片*/
+.wifiBg{position: fixed;width: 100%;height:5.52rem;top: 0;left: 0; }
+.wifiBg_signal{position: fixed;z-index: 2;width: 3.84rem;height: 3.84rem;
+    left:50%;margin-left: -1.92rem;margin-top:1.14rem;}
+.wifiBg_collect{position: fixed;z-index: 2;width: 0.64rem;
+    top: 0.12rem;left: 72%;}
+.wifiBg_share{position: fixed;z-index: 2;width: 0.64rem;top: 0.12rem;left: 85%;}
+/*container部分*/
+.container{width: 100%;
+    padding: 5.82rem 0.3rem 0.3rem 0.3rem;  font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;}
+.container .wifiExplain{width: 100%;height: 2rem;}
+.container .wifiLink{width: 100%;height: 0.8rem;margin-top: 0.8rem;
+line-height: 0.8rem;position: relative;}
+.container .wifiLink div{position: absolute;width: 0.8rem;height: 0.8rem;background: #ff6600;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF; text-align: center;border-radius: 50%;margin-top: -0.8rem;}
+.container .wifiLink div:first-of-type{margin-left:40%;}
+.container .wifiLink div:nth-of-type(2){margin-left: 55%;}
+.container .wifiLink div:nth-of-type(3){margin-left: 70%;}
+.container .linkWifi{width: 100%;height:0.88rem;text-align: center;font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;line-height: 0.88rem;background: #ff6600;margin-top: 0.5rem; }
+

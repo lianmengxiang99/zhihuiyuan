@@ -1,0 +1,145 @@
+/*引入初始化css样式及头部*/
+@import "../reset.min.css";
+@import "../header.css";
+body{
+    background:rgb(239,239,240);
+}
+a{color: gray;}
+/*登录*/
+.tab{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 0.35rem;
+    margin-top: 0.88rem;
+}
+.tab div{
+    float: left;
+    color: rgb(156,155,161);
+    line-height: 0.55rem;
+    font-weight: 600;
+}
+.tab div:first-of-type{
+    margin-right: 8%;
+}
+.tab div:last-of-type{
+    margin-left: 8%;
+}
+.tab>.color{
+    color: #FF6600;
+    border-bottom: 2px solid #FF6600;
+}
+.container{
+    width: 50%;
+    margin-top: 0.5rem;
+    float: left;
+}
+.move{
+    width: 100%;
+    overflow: hidden;
+}
+.table{
+    width: 200%;
+}
+.container>form>div{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: relative;
+}
+.container>form>div:last-of-type{
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.container>form>div input{
+    width: 90%;
+    height: 0.88rem;
+    vertical-align: top;
+    margin-left: 10%;
+    border: 0;
+    outline: none;
+    font-size: 0.4rem;
+}
+.container>form>div input::-webkit-input-placeholder{
+    font-size: 16px;
+}
+.container>form>div img{
+    width: 0.36rem;
+    position: absolute;
+    top: 0.26rem;
+    left: 3%;
+}
+.container>form>.submit{
+    width: 90%;
+    height: 0.88rem;
+    margin-left: 5%;
+    color: white;
+    font-size: 0.32rem;
+    background: #FF6600;
+    line-height: 0.88rem;
+    border: 0;
+    outline: none;
+    margin-top:0.7rem;
+}
+.container>div{
+    width: 90%;
+    margin: 0 auto 0;
+    color: #8F8E94;
+    font-size: 0.25rem;
+    margin-top:0.4rem;
+    overflow: hidden;
+}
+.container>div>.forget{
+    float: left;
+}
+.container>div>.newUsers{
+    float: right;
+}
+.container3>form>div:nth-child(1)>div{
+    height:0.88rem;
+    width: 30%;
+    background:#FF6600;
+    float: right;
+    color: white;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.88rem;
+}
+.container3>form>div:nth-child(1)>input{
+    width: 60%;
+}
+
+.other{
+    width: 80%;
+    font-size: 0.32rem;
+    margin: 0 auto 0;
+    margin-top:3.5rem;
+    line-height: 0.1rem;
+    overflow: hidden;
+    height: 1rem;
+}
+.other>div{
+    float: left;
+}
+.other>div:first-of-type{
+    height: 0.03rem;
+    width: 25%;
+    background: rgba(0,0,0,0.1);
+    margin: 0.5rem 8% 0 0;
+}
+.other>div:last-of-type{
+    height: 0.03rem;
+    width: 25%;
+    background: rgba(0,0,0,0.1);
+    margin: 0.5rem 0 0 8%;
+}
+.other>div,.other>p{
+    float: left;
+    margin: 0.5rem 0 0 0;
+}
+.third_party{
+    margin-top: 0.3rem;
+}
+.third_party>img{
+    width: 0.76rem;
+    margin-left: 15%;
+}

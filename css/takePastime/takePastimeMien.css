@@ -1,0 +1,49 @@
+@import "../reset.min.css";
+@import "../header.css";
+/*健身风采介绍*/
+/*你可以开玩笑,当做无所谓的状态,但生命不会给你开玩笑!*/
+.container{
+    width: 100%;
+}
+.container>li{
+    width: 100%;
+    height: 2rem;
+    background: white;
+    overflow: hidden;
+    border-bottom: 0.15rem solid rgb(239,239,240);
+}
+.container>li>div{
+    float: left;
+    height: 2rem;
+    font-size: 0.2rem;
+}
+.container>li>.leftImg{
+    width: 30.4%;
+}
+.container>li>.leftImg>img{
+    width: 100%;
+    height: 100%;
+}
+.container>li>.rightText{
+    width: 63.6%;
+    margin-left: 2%;
+}
+.container>li>.rightText>div{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.88rem;
+}
+.container>li>.rightText>div>h6{
+    font-size: 0.3rem;
+    font-weight: 400;
+    float: left;
+}
+.container>li>.rightText>div>p{
+    float: right;
+    color: #8F8E94;
+}
+.container>li>.rightText>p{
+    font-size: 0.28rem;
+    letter-spacing: -0.3px;
+    color: #8F8E94;
+}

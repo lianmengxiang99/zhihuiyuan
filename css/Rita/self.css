@@ -1,0 +1,74 @@
+a{
+	text-decoration: none;
+}
+.selfBg{
+	width: 100%;
+	height: 100%;
+	background: url(../../img/self/me_bg@2x.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+		-webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);    
+    filter: blur(10px);
+}
+.circleOne{
+	width: 4.16rem;
+	height: 4.16rem;
+	background: url(../../img/self/mybg1@3x.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.12rem;
+	left: 50%;
+	margin-left: -2.08rem;
+}
+.circleOne img{
+	width: 1.6rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -0.8rem;
+}
+.conBg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background:rgba(0,0,0,0.3);	
+}
+.conBg p{
+	color: white;
+	font-size: 0.32rem;
+}
+.close{
+	float: right;
+	margin: 0.412rem 0.2rem;
+}
+.ask{
+	width: 100%;
+	text-align: center;
+	margin-top: 4.72rem;
+}
+.user{
+	width: 70%;
+	margin:0.92rem 15%;
+}
+.person{
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.user img{
+	width: 1.6rem;
+}
+.user p{
+	width: 100%;
+	text-align: center;
+}
+.company{
+	text-align: center;
+	width: 50%;
+	float: right;
+}

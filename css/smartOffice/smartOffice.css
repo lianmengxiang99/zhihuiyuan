@@ -1,0 +1,48 @@
+@import "../reset.min.css";
+@import "../header.css";
+body{
+    background:rgb(239,239,240);
+}
+.container{
+    width: 90%;
+    margin: 0 auto 0;
+    height: 2.4rem;
+    overflow: hidden;
+    margin-top: 0.25rem;
+}
+.container li{
+    width: 49%;
+    height: 2.4rem;
+    background: white;
+    text-align: center;
+}
+.container li img{
+    width: 1rem;
+    margin-top: 0.5rem;
+}
+.container li p{
+    font-size: 0.2rem;
+    margin-top: -0.1rem;
+}
+.container .lisLeft{
+    float: left;
+}
+.container .lisRight{
+    float: right;
+}
+.book{
+    width: 90%;
+    height: 2.4rem;
+    background: white;
+    margin: 0 auto 0;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+.book img{
+    width: 1rem;
+    margin-top: 0.5rem;
+}
+.book p{
+    font-size: 0.2rem;
+    margin-top: -0.1rem;
+}

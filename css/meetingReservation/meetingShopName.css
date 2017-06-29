@@ -1,0 +1,157 @@
+@import "../reset.min.css";
+
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: rgba(255,102,0,0.00);
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+header span{position: absolute;line-height: 0.88rem;left: 2.4rem;z-index: 3;}
+
+/*背景图片*/
+.wifiBg{position: fixed;width: 100%;height:3.52rem;top: 0;left: 0; }
+.wifiBg_collect{position: fixed;z-index: 2;width: 0.64rem;
+    top: 0.12rem;left: 72%;}
+.wifiBg_share{position: fixed;z-index: 2;width: 0.64rem;top: 0.12rem;left: 85%;}
+
+.washPulan{position: fixed;z-index: 2;font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF; left: 2.2rem;top: 2rem;}
+.washPulanollect{position: fixed;z-index: 2;font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 16px;
+    top: 2.6rem;left: 2.2rem;}
+/* meetingmessage*/
+
+.meetingMessage{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+padding-top: 3.52rem;width: 100%;height: 1.28rem;text-indent: 0.3rem;line-height: 0.64rem;}
+.meetingMessage p span{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    letter-spacing: 0;
+}
+/*分割线*/
+.meetingLine{width: 100%;height: 0.1rem;background: rgb(239,239,244);  }
+/* meeting*/
+.container .container_about {
+    width: 100%;
+    height: 0.72rem;
+    font-size: 12px;
+    line-height: 0.72rem;
+}
+
+.container .shutiao {
+    float: left;
+    height: 0.3rem;
+    margin-left: 0.3rem;
+    width: 0.08rem;
+    margin-top: 0.21rem;
+}
+
+.container .container_about span {
+    margin-left: 0.1rem;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8F8E94;
+}
+
+/*园区简介*/
+.container .container_aboutDetails {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+
+.container_aboutDetails img {
+    width: 100%;
+    height: 3rem;
+}
+
+/*line 空隔开*/
+.container .container_aboutLine {
+    width: 100%;
+    height: 0.1rem;
+    background: rgb(239, 239, 244);
+}
+
+/*container_contactUs Css*/
+.container_contactUs {
+    padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+}
+
+.container .container_contactUs p {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+}
+
+.container .container_contactUs span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8F8E94;
+    letter-spacing: 0;
+}
+
+/*会议室详情*/
+
+.footerMeeting{width: 100%;display: inline-block;
+    padding: 0.2rem 0.3rem 0.1rem 0;}
+.footerMeeting li{float: left;width: 2.4rem;height: 2.28rem;position: relative;
+overflow: hidden;
+background: right;}
+
+.footerMeeting li div{position: absolute;width: 100%;height: 0.4rem;bottom: 0;z-index: 2;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 0.4rem;
+    /*text-align: center;*/
+    background: black;
+    opacity: 0.3;
+    width: 2.12rem;
+    margin-left: 0.3rem;
+    text-indent: 0.7rem;
+    top: 1.4rem;
+}
+.footerMeeting img{width: 100%;height: 1.8rem;}
+.footerMeeting p{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    line-height: 16px;position: absolute;
+}
+
+.footerMeeting li:nth-of-type(2){
+}
+.footerMeeting li:nth-of-type(3){
+    float: right;
+}
+
+
+
+

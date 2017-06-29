@@ -1,0 +1,70 @@
+body {
+    background: rgb(239, 239, 244)
+}
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: #FF6600;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header img {
+    float: left;
+    width: 0.64rem;
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+}
+
+header span {
+    margin-left: -0.44rem;
+    line-height: 0.88rem;
+}
+
+/*container部分*/
+.container {
+    padding: 0.88rem 0.3rem 0.1rem 0.3rem;
+}
+
+.container ul {
+    width: 100%;
+}
+
+.container ul li {
+    width: 100%;
+    height: 2.2rem;
+    background: red;
+    margin-top: 0.2rem;
+    position: relative
+}
+
+.container ul li img:first-of-type {
+    width: 100%;
+    height: 100%;
+}
+
+.container ul li img:nth-child(2) {
+    position: absolute;
+    width: 1.32rem;
+    height: 0.48rem;
+    left: 20%;
+    top: 50%;
+    margin-top: -0.24rem;
+
+}
+
+.container ul li img:last-of-type {
+    position: absolute;
+    width: 0.64rem;
+    height: 0.64rem;
+    left: 80%;
+    z-index: 3;
+    top: 50%;
+    margin-top: -0.32rem;
+}

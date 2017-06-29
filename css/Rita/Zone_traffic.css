@@ -1,0 +1,60 @@
+body{
+    background: rgb(239,239,240);
+}
+
+
+/*container*/
+ul.container{
+    background: rgb(239,239,240);
+    overflow: hidden;
+    padding-top: 0.88rem;
+}
+ul.container>li:nth-child(2n+1){
+    float: left;
+    width: 3.36rem;
+    height: 2.4rem;
+    margin-left: 0.3rem;
+    margin-top:0.2rem;
+    text-align: center;
+    background:white;
+}
+ul.container>li:nth-child(2n){
+    float: left;
+    width: 3.36rem;
+    height: 2.4rem;
+    margin-top:0.2rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    background:white;
+}
+ul.container>li>img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.48rem;
+}
+ul.container>li>p{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #1A1A1A;
+    line-height: 16px;
+}
+
+
+/*car and paylist*/
+.carAndpaylist{
+    width: 100%;
+    background: white;
+    margin-top: 0.2rem;
+}
+.carAndpaylist p{
+    line-height: 0.88rem;
+    padding-left: 0.3rem;
+    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.10);
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    background-image: url(../../img/Zone-traffic/back.png);
+    background-repeat: no-repeat;
+    background-position: 6.96rem 0.32rem;
+}

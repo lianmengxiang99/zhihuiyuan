@@ -1,0 +1,81 @@
+@import "../reset.min.css";
+@import "../header.css";
+/*到最后你敢放弃吗!*/
+.business{
+    background: white;
+    height: 0.72rem;
+    width: 100%;
+    font-size: 0.2rem;
+    line-height: 0.72rem;
+    color: #8F8E94;
+    position: relative;
+    border-bottom: 0.02rem solid rgb(229,229,229);
+}
+.business span{
+    margin-left: 6.5%;
+}
+.business img{
+    width: 0.085rem;
+    position: absolute;
+    left:3.5%;
+    top: 0.225rem;
+}
+.container{
+    width: 100%;
+    background: white;
+}
+.container li{
+    width: 96%;
+    margin-left:4%;
+    height: 0.88rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+}
+.container li>p:first-of-type{
+    float: left;
+}
+.container li>p:nth-child(2){
+    float: right;
+    color: #CCCCCC;
+    margin-right: 12%;
+}
+.container li>input{
+    float: right;
+    height: 0.85rem;
+    outline: none;
+    border: 0;
+    width: 25%;
+}
+.container li.bgImg{
+    background: url(../../img/mengxiang/back.png) 95% 47% no-repeat;
+    background-size: 0.24rem;
+}
+.container li>input::-webkit-input-placeholder{
+    font-size: 13.5px;
+    color: #CCCCCC;
+    text-align:left;
+}
+textarea{
+    width: 100%;
+    height: 2rem;
+    border: 0;
+    outline: none;
+}
+textarea::-webkit-input-placeholder{
+    font-size: 0.28rem;
+    color: #CCCCCC;
+    line-height: 0.88rem;
+    text-indent: 0.25rem;
+}
+footer{
+    width: 92%;
+    height: 0.88rem;
+    margin:  0 auto 0;
+    background: #FF6600;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: white;
+    margin-top: 0.2rem;
+}
